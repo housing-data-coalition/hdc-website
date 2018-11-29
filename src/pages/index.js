@@ -4,9 +4,9 @@ import Bio from '../components/bio';
 import Gallery from '../components/gallery';
 import Contact from '../components/contact';
 
-import "../styles/bootstrap.css";
+import "./bootstrap.css";
 
-import "../styles/agency.css";
+import "./agency.css";
 
 
 var landingStyle = {
