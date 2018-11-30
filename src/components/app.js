@@ -5,9 +5,6 @@ import Bio from '../components/bio';
 import Gallery from '../components/gallery';
 import Contact from '../components/contact';
 
-import "../styles/bootstrap.css";
-import "../styles/agency.css";
-
 const App = () => 
  <StaticQuery
     query={graphql`
