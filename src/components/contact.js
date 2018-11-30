@@ -1,10 +1,6 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";  
 
-var contactStyle = {
-  backgroundImage: `url("/img/map-image.png")`
-}
-
 const Contact = () => (
   <StaticQuery
     query={graphql`
@@ -26,11 +22,19 @@ const Contact = () => (
                 html
               }
             }
+            backgroundImage {
+              fluid {
+                    aspectRatio
+                    src
+                    srcSet
+                    sizes
+                  }
+                }
           }
         }
     `}
     render={data => (
-      <section id="contact" style={contactStyle}>
+      <section id="contact" style={{backgroundImage: 'url(' + data.contentfulSignUp.backgroundImage.fluid.src + ')'}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
