@@ -11,16 +11,12 @@ const Bio = () => (
             p1 {
               p1
             } 
-            p2 {
-              p2
-            }
         }}
     `}
     render={({
       contentfulAboutUs: {
         title,
-        p1: { p1 },
-        p2: { p2 }
+        p1: { p1 }
       }
     }) => (
       <section id="bio">
@@ -32,8 +28,6 @@ const Bio = () => (
                   <br/>
                   <div>
                     <p align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {p1}
-                      </p>
-                    <p align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {p2}
                       </p>
                   </div>
                 </h3>
