@@ -16,9 +16,9 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
 
-          <meta name="description" content="The Housing Data Coalition (HDC) is a group of individuals and organizations who collaborate on their use of public data to further housing justice in New York City.">
-          <meta name="keywords" content="Housing,Data,Coalition,NYC,New,York,Displacement,Justice,Open">
-          <meta name="author" content="Housing Data Coalition">
+          <meta name="description" content="The Housing Data Coalition (HDC) is a group of individuals and organizations who collaborate on their use of public data to further housing justice in New York City."/>
+          <meta name="keywords" content="Housing,Data,Coalition,NYC,New,York,Displacement,Justice,Open"/>
+          <meta name="author" content="Housing Data Coalition"/>
 
           {this.props.headComponents}
         </head>
