@@ -13,7 +13,8 @@ const Bio = () => (
                 html
               }
             }
-        }}
+        }
+      }
     `}
     render={data => (
       <section id="bio">
@@ -25,7 +26,8 @@ const Bio = () => (
                   <br/>
                   <div>
                     <p align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                      <span dangerouslySetInnerHTML={{ __html: data.contentfulAboutUs.p1.childMarkdownRemark.html}} />
+                      <div dangerouslySetInnerHTML={{ __html: data.contentfulAboutUs.p1.childMarkdownRemark.html}}>
+                      </div>
                     </p>
                   </div>
                 </h3>
