@@ -515,6 +515,10 @@ ul.social-buttons {
 .text-primary {
   color: #ffffff !important; }
 
+.tool-link {
+  padding-right: 20px;
+}
+
 .btn-primary {
   font-weight: 700;
   color: white;

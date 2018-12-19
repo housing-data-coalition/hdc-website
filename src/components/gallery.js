@@ -55,7 +55,7 @@ class GalleryModal extends React.Component {
                         <a href={this.props.link} target="_blank">
                         <img className="img-fluid d-block mx-auto" src={this.props.imageURL} alt=""/> </a>
                         <p align="left">{this.props.p1}</p>
-                        <a href={this.props.link} target="_blank"> 
+                        <a href={this.props.link} target="_blank" className="tool-link">
                           <button className="btn btn-primary">Go to {this.props.title}</button>
                         </a>
                         <button className="btn btn-primary" type="button" onClick={this.props.closeButton}>
