@@ -81,13 +81,15 @@ class GalleryFull extends React.Component {
     };
   }
  
-  openModal(number) {
+  openModal(e,number) {
+    e.preventDefault();
     this.setState({showModal: number} );
     $('body').addClass('modal-open');
     console.log("opened modal", number);
   }
 
-  closeModal() {
+  closeModal(e) {
+    e.preventDefault();
     this.setState({showModal: -1} );
     $('body').removeClass('modal-open');
     console.log("closed modal");
@@ -102,7 +104,7 @@ class GalleryFull extends React.Component {
                                        title={this.props.galleryContent[i].title}
                                        org={this.props.galleryContent[i].org}
                                        thumbURL={this.props.galleryContent[i].image.fluid.src}
-                                       handleClick={()=>{this.openModal(i)}} />)
+                                       handleClick={(e)=>{this.openModal(e,i)}} />)
     }
     return galleryItems;
   }
@@ -120,7 +122,7 @@ class GalleryFull extends React.Component {
                                   imageURL={this.props.galleryContent[i].image.fluid.src}
                                   p1={this.props.galleryContent[i].p1.p1}
                                   contact={this.props.galleryContent[i].contact}
-                                  closeButton={()=>{this.closeModal()}} />)
+                                  closeButton={(e)=>{this.closeModal(e)}} />)
     }
     return modals;
   }
