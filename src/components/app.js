@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 import Bio from '../components/bio';
 import Gallery from '../components/gallery';
 import Contact from '../components/contact';
+import DataHelpdesk from "./data-helpdesk";
 
 const App = () => 
  <StaticQuery
@@ -53,6 +54,7 @@ const App = () =>
         </header>
 
         <Bio />
+        <DataHelpdesk />
         <Gallery />
         <Contact />
 
