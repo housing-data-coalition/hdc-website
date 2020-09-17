@@ -49,10 +49,15 @@ const App = () =>
         </nav>
 
         <header className="masthead" style={{backgroundImage: 'url(' + data.allContentfulTitleBanner.edges[0].node.headerImage.fluid.src + ')'}}>
-          <div className="container">
+          <div className="container text-center">
             <div className="intro-text">
               <div className="intro-heading">Housing Data Coalition</div>
+
             </div>
+            <br/>
+              <a href="#helpdesk">
+              <div className="btn btn-warning btn-lg"><b>NEW:</b> Send us a Data Request</div>
+            </a>
           </div>
         </header>
 
