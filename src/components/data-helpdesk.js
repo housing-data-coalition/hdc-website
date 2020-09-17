@@ -29,7 +29,7 @@ const DataHelpdesk = () => (
           </p>
           <br />
           <a href={DATA_REQUEST_URL} target="_blank" rel="noopener noreferrer">
-            <div className="btn btn-large btn-primary">Send a request</div>
+            <div className="btn btn-lg btn-warning font-weight-bold text-white">SEND A REQUEST</div>
           </a>
         </div>
       </div>
