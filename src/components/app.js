@@ -56,7 +56,7 @@ const App = () =>
             </div>
             <br/>
               <a href="#helpdesk">
-              <div className="btn btn-warning btn-lg"><b>NEW:</b> Send us a Data Request</div>
+              <div className="btn btn-warning btn-lg"><b>NEW:</b> Send us a data request</div>
             </a>
           </div>
         </header>
