@@ -39,6 +39,9 @@ const App = () =>
                   <a className="nav-link js-scroll-trigger" href="#portfolio">Resource Gallery</a>
                 </li>
                 <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href="#helpdesk">Data Help Desk</a>
+                </li>
+                <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="#contact">Get In Touch</a>
                 </li>
               </ul>
@@ -54,8 +57,9 @@ const App = () =>
         </header>
 
         <Bio />
-        <DataHelpdesk />
+
         <Gallery />
+        <DataHelpdesk />
         <Contact />
 
         <footer>

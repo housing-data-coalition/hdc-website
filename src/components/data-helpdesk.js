@@ -6,13 +6,13 @@ const DataHelpdesk = () => (
   <section
     id="helpdesk"
     style={{
-      backgroundColor: "#222",
+      backgroundColor: "#323232",
     }}
   >
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-lg-8 text-center">
-          <h2 className="section-heading text-primary">Data Helpdesk</h2>
+          <h2 className="section-heading text-primary">Data Help Desk</h2>
           <br />
           <p className="section-subheading text-primary">
             Send us your housing data inquiries and we will ask our community of
