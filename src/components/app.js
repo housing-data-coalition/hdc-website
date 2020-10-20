@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 import Bio from '../components/bio';
 import Gallery from '../components/gallery';
 import Contact from '../components/contact';
+import DataHelpdesk from "./data-helpdesk";
 
 const App = () => 
  <StaticQuery
@@ -38,6 +39,9 @@ const App = () =>
                   <a className="nav-link js-scroll-trigger" href="#portfolio">Resource Gallery</a>
                 </li>
                 <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href="#helpdesk">Data Help Desk</a>
+                </li>
+                <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="#contact">Get In Touch</a>
                 </li>
               </ul>
@@ -45,15 +49,22 @@ const App = () =>
         </nav>
 
         <header className="masthead" style={{backgroundImage: 'url(' + data.allContentfulTitleBanner.edges[0].node.headerImage.fluid.src + ')'}}>
-          <div className="container">
+          <div className="container text-center">
             <div className="intro-text">
               <div className="intro-heading">Housing Data Coalition</div>
+
             </div>
+            <br/>
+              <a href="#helpdesk">
+              <div className="btn btn-warning btn-lg"><b>NEW:</b> Send us a data request</div>
+            </a>
           </div>
         </header>
 
         <Bio />
+
         <Gallery />
+        <DataHelpdesk />
         <Contact />
 
         <footer>
