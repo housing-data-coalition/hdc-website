@@ -173,9 +173,6 @@ const Gallery = () => (
                   }
                   p1 {p1}
                   link 
-                  tags {
-                    name
-                  }
                   contact
                 }
               }
