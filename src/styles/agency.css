@@ -11,6 +11,16 @@
   }
 }
 
+a.black {
+  color: black;
+}
+a.black.active,
+a.black:active,
+a.black:focus,
+a.black:hover {
+  color: white;
+}
+
 /* AGENCY THEME */
 body {
   overflow-x: hidden;
