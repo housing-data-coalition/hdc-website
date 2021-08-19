@@ -52,12 +52,13 @@ const App = () =>
           <div className="container text-center">
             <div className="intro-text">
               <div className="intro-heading">Housing Data Coalition</div>
-
+              <br/>
+              <div className="btn btn-warning btn-lg">
+                <a class="black" href="#helpdesk">
+                  <strong>NEW:</strong> Send us a data request
+                </a>
+              </div>
             </div>
-            <br/>
-              <a href="#helpdesk">
-              <div className="btn btn-warning btn-lg"><b>NEW:</b> Send us a data request</div>
-            </a>
           </div>
         </header>
 
