@@ -24,5 +24,8 @@
     "react-dom": "^16.5.1",
     "save": "^2.3.2",
     "url-loader": "^1.1.2"
+  },
+  "resolutions": {
+    "fsevents": "1.2.9"
   }
 }
