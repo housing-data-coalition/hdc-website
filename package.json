@@ -14,7 +14,7 @@
     "gatsby": "^2.0.59",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-source-contentful": "^2.0.15",
-    "gatsby-transformer-remark": "^2.1.13",
+    "gatsby-transformer-remark": "^5.25.1",
     "jquery": "^3.3.1",
     "jquery.easing": "^1.4.1",
     "latest": "^0.2.0",
